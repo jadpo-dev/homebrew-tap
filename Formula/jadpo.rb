@@ -1,25 +1,25 @@
 class Jadpo < Formula
   desc "The jadpo command"
   homepage "https://github.com/jadpo-dev/jadpo"
-  version "0.3.0"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/jadpo-dev/jadpo/releases/download/v0.3.0/jadpo-cli-aarch64-apple-darwin.tar.gz"
-      sha256 "18aaaf003b056dbf4e24fb4469879fdca49bf0f626f0deda6aa9c2d7a6fcb94e"
+      url "https://github.com/jadpo-dev/jadpo/releases/download/v0.4.0/jadpo-cli-aarch64-apple-darwin.tar.gz"
+      sha256 "2944f4b147bc99bb29a93b62274ebf63c7533a4c316e5d3081de5dbfe773adac"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jadpo-dev/jadpo/releases/download/v0.3.0/jadpo-cli-x86_64-apple-darwin.tar.gz"
-      sha256 "4e61bdf9621a5b8cf85771354e0fa71c9f1412a76d7a30253dd3bffa1530c474"
+      url "https://github.com/jadpo-dev/jadpo/releases/download/v0.4.0/jadpo-cli-x86_64-apple-darwin.tar.gz"
+      sha256 "0f8cfaf9a9b3ab8d84382c8f6f149b7a91f432cab4709e0ff26056938d4cec38"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/jadpo-dev/jadpo/releases/download/v0.3.0/jadpo-cli-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "35b0c1b88d9893fde48456da8db7b4b4ed9bc511fb1099a71a8943eb23abca02"
+      url "https://github.com/jadpo-dev/jadpo/releases/download/v0.4.0/jadpo-cli-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "482844106180a46fca137e10b48b3011b11188c0c517da6993f489b5e7dc5700"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jadpo-dev/jadpo/releases/download/v0.3.0/jadpo-cli-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "f16df55b61ab199982f5b71930365a40353389a7db81b8e45906a8acb3f31a1b"
+      url "https://github.com/jadpo-dev/jadpo/releases/download/v0.4.0/jadpo-cli-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b810cdd88684750655ae819ac56b2e0891b199ee13dc31c7d597bad79211dfef"
     end
   end
   license "Apache-2.0"
